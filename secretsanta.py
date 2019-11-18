@@ -48,15 +48,10 @@ if __name__ == "__main__":
 
     for combo in KNOX_JOLLY_BRINGERS:
         print(combo)
+        # keep us safe
         #try:
         #    send_email(combo)
         #except:
         #    print("mail didnt send")
 
-    print("##########################################")
 
-    while not gen_list(BORO_JOLLY_BRINGERS):
-        print("Trying to make the list")
-
-    for combo in BORO_JOLLY_BRINGERS:
-        print(combo)
